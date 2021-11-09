@@ -14,9 +14,19 @@ body {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 30px;
   margin: 5px;
   text-transform: uppercase;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  border: solid #FB6376 5px;
+  border-radius: 10px;
+  color: #FB6376;
+  font-size: 1.5rem;
+
 }
 
 .counter {
@@ -47,10 +57,12 @@ h4 {
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%) scale(0);
+  text-align: center;
 }
 
+
 .final.show {
-  transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(1);
   animation:  show 0.2s ease-out;
 }
 
@@ -70,11 +82,11 @@ h4 {
 
 .nums {
   color: #FFF9EC;
-  font-size: 50px;
+  font-size: 90px;
   position: relative;
   overflow: hidden;
   width: 250px;
-  height: 50px;
+  height: 90px;
 }
 
 .nums span {
